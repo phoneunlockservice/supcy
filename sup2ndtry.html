@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    supcy.com
+  </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    .footer {
+      position: relative;
+      left: 0;
+      bottom: 0;
+      background-color: #333939;
+      text-align: justify;
+      height: fit-content;
+    }
+
+    footer:active {
+      background-color: #1d2020;
+    }
+
+    button {
+      background-color: #333939;
+      color: rgb(241, 245, 245);
+    }
+
+    .content {
+      padding: 0 18px;
+      display: none;
+      overflow: auto;
+      background-color: #333939;
+    }
+    .logoImg,.centered{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    #btn {
+      background-color: #f2f7f7;
+      border: none;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .vl {
+      border-left: 4px solid rgb(180, 192, 240);
+      height: fit-content;
+    }
+  </style>
+  <style>
+    body {
+      font-family: unset;
+      font-size: 18px;
+      line-height: 29px;
+    }
+
+    #myBtn {
+      display: none;
+      position: fixed;
+      bottom: 20px;
+      right: 30px;
+      z-index: 99;
+      font-size: 10px;
+      border: none;
+      outline: none;
+      background-color: white;
+      cursor: pointer;
+      padding: 10px;
+      border-radius: 10px;
+      place-self: end;
+      opacity: 50px;
+      place-self: end;
+      margin-top: calc(100vh + var(--offset));
+      /* visual styling */
+      width: 45px;
+      aspect-ratio: 1;
+      border-radius: 10px;
+    }
+
+    #myBtn:hover {
+      background-color: white;
+    }
+
+    h1 {
+      color: #b0dcdc;
+    }
+
+    #exp1border {
+      border: solid rgb(184, 214, 208);
+      width: 98%;
+      background-color: #ffffff;
+    }
+
+    #relttop1 {
+      border: 2px solid transparent;
+      width: 90%;
+      background-color: #f2f7f7;
+      border-radius: 26px;
+    }
+
+    img.exp2 {
+      float: center;
+      margin-right: 20px;
+      clear: both;
+
+
+    }
+
+    div.mobitech {
+      background-color: #ffffff;
+    }
+
+    h2 {
+      color: rgb(187, 187, 55);
+    }
+
+    ul.contents {
+      color: rgb(197, 181, 38);
+      font-size: medium;
+    }
+
+    #bluethis {
+      color: blue;
+    }
+
+    table,
+    th,
+    tr,
+    td {
+      border: 1px solid black;
+      border-collapse: separate;
+    }
+  </style>
+</head>
+
+<body>
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="favi6.png" alt=""></button>
+
+  <script>
+    // Get the button
+    let mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 700px from the top of the document, show the button
+    window.onscroll = function () { scrollFunction() };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 700 || document.documentElement.scrollTop > 700) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 5;
+      document.documentElement.scrollTop = 5;
+    }
+  </script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    
+
+    .topnav {
+      overflow: hidden;
+      background-color: #f2f7f7;
+      position: relative;
+      border-radius: 25px;
+    }
+
+    .topnav #myLinks {
+      display: none;
+      position: relative;
+    }
+
+    .topnav a {
+      float: left;
+      display: block;
+      color: rgb(15, 11, 11);
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      position: relative;
+      text-size-adjust: auto;
+    }
+
+    .topnav a.icon {
+      float: left;
+    }
+
+    .topnav a:hover {
+      background-color: rgb(208, 220, 232);
+      color: black;
+    }
+
+    .active {
+      background-color: rgb(188, 209, 230);
+      color: white;
+    }
+
+   
+  </style>
+
+
+  <!-- Simulate a smartphone / tablet look -->
+  <div class="mobile-container">
+
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+      <a href="#home" class="active">Home</a>
+      <div id="myLinks">
+        <a href="our services.html">Our Services</a>
+        <a href="contact.us___0011.html">Contact Us</a>
+        <a href="virtual assistant.html">Virtual Assistant</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+    <div style="padding-left:10px">
+      <hr width="100%">
+      <h2 class="head"> <a href="sup2ndtry.html">S U P C Y</a></h2>
+      <hr width="100%">
+      <p><strong>SUPCY</strong> is a software repair center structured in Buea that offers a vast
+        majority of services within the smartphone, feature phone and web
+        development domain. This structure is primarily build for or to provide information about our services, help clients with simple fixes, and provide for them a
+        channel to express their concerns. <br><br>
+        Contents on this page:
+      <ul class="contents">
+        <li>A Little About Mobile Technoloogy</li>
+        <li>Why We Need Support For Using Our Gadgets</li>
+        <li>Explore</li>
+        <li>For Software Repairers Only</li>
+        <li>Related Topics</li>
+      </ul>
+      <!-- Element whose border will be styled -->
+      <div>
+        <div class="mobitech">
+          <hr width="100%">
+          <h3>A Little About Mobile Technology</h3>
+          <p>Mobile technology is reshaping society, communications, and the global economy. With cell phones,
+            smartphones, and tablets now outnumbering desktop computers, there has been a sea change in the way people
+            access, use, and share information. Powerful mobile devices and sophisticated digital applications enable
+            users to build businesses, access financial and health care records, communicate with public officials, and
+            complete online transactions. More globally, such devices and applications have helped reduce social
+            inequality, increased participation in civic life, and increased education levels, all of which spur
+            national economic development. </p>
+          <p> This revolution in how consumers and businesses access information, and
+            the far-reaching consequences of such uses, represents a fundamental turning point in human history. For the
+            first time, people are able to connect with one another in a relatively inexpensive and convenient manner
+            around the clock. In both developed and developing countries, the growth in mobile technology has been
+            accompanied by job creation and knowledge transfer, as well as deepened social and economic connections.
+            With
+            the mobile industry generating $1.6 trillion in revenues, it is important to understand how mobile telephony
+            is reshaping our world--our social connections, economic markets, and political development.</p>
+
+        </div>
+        <hr width="100%">
+        <h1>
+          <p><strong>Why We Need Support <br> For Using Our Gadgets</strong></p> <br>
+        </h1>
+        <img style="display: block; margin-left: auto; margin-right: auto;" src="gadgets.jpg" height="400px" alt="there was supposed to be an image here">
+        <p>
+          Our phones are, without a doubt, some of the most important gadgets in our lives. Even with the ever-rising
+          need to use our phones almost everywhere, there is one thing that never seems to be addressed correctly –
+          effective handling of these slippery pieces of technology. Given the availability of sophisticated mobile
+          brands–the challenge to handle these gadgets becomes even more daunting. But no worries, were are here to
+          make sure you get the most out of these gadgets thereby minimizing glitches.
+        </p>
+      </div>
+      <br>
+    </div>
+  </div>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+  </script>
+
+
+  <div style="padding-left: 13px;">
+    <!-- Element whose border will be styled -->
+    <div style="padding-left: px;" id="exp1border">
+      <h2 id="fst" style="padding-left: 26px;"><br> E X P L O R E</h2>
+      <hr width="100%"> <br>
+
+      <h2> When is it appropriate to reset my phone to factory settings</h2> <br>
+      <img class="centered" src="facrestrue.jpg" height="400px" width="400px" alt="failed to load image">
+      <p>There are plenty of reasons why someone would want to do a factory reset on their phone. If your phone is
+
+        dealing with software issues, a factory reset could truly save the day. If it’s moving slowly, glitching often,
+
+        or having other serious problems, a factory reset might be an option to consider. <br>
+        <br>
+      <h3>What to expect after a factory reset</h3> <br>
+      Any operating system issues and major errors that have been occurring on your phone will cease to exist. If you
+      have plans to sell your phone to someone else, they won’t be able to access any of your personal information. A
+      factory reset is highly suggested for anyone planning to sell their old phone since phones generally carry tons of
+      highly personal data — from bank statements to credit card numbers.
+      </p>
+      <hr width="100%"> <br>
+      <h2>Why does my phone say "No Sim"? Try these tricks</h2> <br>
+      <img class="centered" src="nosimcard.jpg" height="400px" width="400px" alt="failed to load image">
+      <p> <strong>Trick 1:</strong> Although it seems like a no-brainer, the first thing to do when an error message
+        pops up is to remove
+        the SIM card on your phone. Most often, the SIM card message is triggered when a SIM card is loose, not put in
+        correctly, or dirty in any way. After taking out the SIM card, wipe it down with a clean cloth or cotton swab
+        (but never alcohol, oil, soap, or water!) <br>
+
+        Next, check that the SIM tray isn't dirty or otherwise damaged. If so, you might want to replace the SIM tray.
+        If your SIM card is scratched or damaged, typically, the carrier can replace it for a small fee. The best way to
+        avoid replacing a SIM card is not to handle the SIM card too much in general. <br>
+      </p> <br>
+      <p> <strong>Trick 2:</strong> Turning your phone off and on may fix minor SIM card glitches, but if that doesn't
+        work, try checking your carrier connection. Typically, carrier connection can be found in most phone Settings
+        menus. If you aren't connected to your carrier network, that can cause SIM card problems. Also, make sure to
+        keep up with software updates to your phone for the best usability.
+
+      <p>
+      <p> <br>
+        <strong>Conclusion:</strong> If you've attempted every solution you can think of and those listed here, but
+        issue still persist, the SIM card error might
+        be an issue with the phone itself. At this point, taking it into a repair store or the manufacturer might be
+        best.
+      </p>
+      <hr width="100%"> <br>
+      <div>
+        <h2>Why does my phone overheat while charging</h2> <br>
+        <img class="centered" src="chargeheat.jpg" width="400px" height="400px"
+          alt="failed to load image">
+        <p>There are many reasons why your device could overheat while charging. In this guide we'll talk about the most
+          common.
+
+        <p> One of the most common reasons that your phone feels like it’s on fire has to do with continuous use. The
+          idea
+          of shooting out a few text messages while charging your almost lifeless phone may seem like the best way to
+          kill two birds with one stone, but it actually does more harm than good.
+        </p>
+        </p>
+        <p> Another thing that could affect the temperature of your phone while charging is where you place your
+          plugged-in phone. Placing your phone on a bed, sofa, or any surface where heat dissipation is poor will cause
+          your device’s temperature to rise.
+        </p>
+
+
+        <p> Lastly, your phone may overheat while charging if you're running multiple apps during charging. It’s okay
+          trying to stay connected for a variety of reasons. However, keeping your apps running will cause your
+          power consumption to increase, which will lead to an overheated phone.
+        </p>
+      </div>
+      <hr width="100%">
+
+      <h2> <strong> How to use phone when screen is broken or working partially </strong></h2> <br> <br>
+      <img  class="centered" src="otgmouse.jpg" width="400px" height="400px"
+        alt="failed to load image">
+      <p>
+
+        To do this you'll need a mouse and an OTG cable. <br> <br> Step 1: Connect the Micro USB side or the OTG adapter
+        to your
+        device and then plug in the USB mouse to the adapter. <br> <br> Step 2: As soon as the devices are connected,
+        you will be
+        able to see a pointer on your screen. you can use the pointer to unlock the pattern or enter the device's
+        password lock.
+        </h4>
+      </p>
+      <br>
+      <hr width="100%"> <br>
+      <h2> <strong> How to flash phone with SP flash tool</h2> </strong>
+      <br> <br>
+      <img class="centered" src="spflashtul.jpg" width="400px" height="400px"
+        alt="failed to load image">
+      <p>
+      <ol>
+        <li>Download the target device's USB drivers</li>
+        <li>Download and extract Stock Firmware of target device</li>
+        <li>Download SP flash tool on your computer and extract the downloaded zip file on your system</li>
+        <li>From the files extracted, run "flash_tool.exe"</li>
+        <li>Once SP flash tool is started, click on the <strong>scatter-loading</strong> button located in the right
+          side</li>
+        <li>Locate the scatter file in your Stock Firmware. It is generally located in the <strong>bin/</strong>
+          directory</li>
+        <li>After choosing the scatter file, now click on the <strong>Download</strong> button to start the process</li>
+        <li>Now reboot phone to download mode and connect to your computer using a USB cable</li>
+        <li>Hold down volume + - simultaneously for your device to be recognized by the tool</li>
+        <li>Do not abort process untill it is complete. Your device will reboot automatically after process is complete
+        </li>
+        </h4>
+      </ol><br>
+    </div>
+    <br>
+    <div class="vl">
+      <p>There's plenty of issues affecting mobile phones and accessories that can't be covered on a single page like
+        this. Don't hesitate to <a href="contact.us___0011.html">contact us</a> if you can't find a
+        problem mentioned here.</p>
+    </div>
+    <br>
+    <div>
+      <h2>For Software Repairers only</h2>
+      <hr>
+      <h3>one-click download</h3>
+      <div>
+        <p style="text-decoration: line-through;">adds</h4>
+        <p style="text-decoration: line-through;">page redirect</h4>
+      </div>
+      <table>
+        <tr>
+          <th>File Name</th>
+          <th>Description</th>
+          <th>Compatibility</th>
+        </tr>
+        <tr style="width: 700px;">
+          <td> <a href="iTunes64Setup.txt" download>Apple Drivers</a></td>
+          <td>Establish and maitain communication bridge between iDevice and PC</td>
+          <td>64-bit platform</td>
+        </tr>
+        <tr>
+          <td><a href="MediaTek_Preloader_USB_VCOM_Drivers_Setup_Signed/" dowload>MTK Drivers</a></td>
+          <td>Establish communication bridge between PC and android device built on MTK SOCs </td>
+          <td>64-bit platform</td>
+        </tr>
+        <tr>
+          <td><a href="SPD Drivers For Windwos 10 and 8 By GSM AHAD/" download>SPD Drivers</a></td>
+          <td>Establish communication bridge between PC and android device built on SPD SOCs</td>
+          <td>32 and 64-bit platform</td>
+        </tr>
+        <tr>
+          <td><a href="platform-tools_r34.0.1-windows.zip" download>Android Debug Bridge</a></td>
+          <td>Control android devices over PC</td>
+          <td>64-bit platform</td>
+        </tr>
+        <tr>
+          <td><a href="sp flash tool.txt" download>SP_flash tool</a></td>
+          <td>Flash custom stockROM</td>
+          <td>64-bit platform</td>
+        </tr>
+
+      </table>
+      <p style="font-size:13px;">Can't find a preference listed here? <a href="contact.us___0011.html">contact us</a>
+      </p>
+    </div>
+    <br><br><br>
+    <div>
+      <h2>R e l a t e d T o p i c s</h2>
+
+      <hr width="100%">
+      <br>
+      <ul>
+        <li>
+          <a
+            href="https://www.hovatek.com/blog/how-to-surf-anonymously-or-protect-your-online-identity-using-cybergawesome-vpn/">
+            <h>How to protect your online identity</h>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.hovatek.com/blog/how-to-root-android/">How to root any andriod device</a>
+        </li>
+
+        <li>
+          <a id="bluethis" href="https://www.hovatek.com/blog/how-to-disable-windows-defender/">How to disable windows
+            defender</a>
+        </li>
+        <li>
+          <a id="bluethis"
+            href="https://www.hovatek.com/blog/should-you-use-adoptable-storage-on-your-android-device/">What you need
+            to know about adoptable storage device</a>
+        </li>
+
+
+      </ul>
+
+    </div> <br>
+    <!-- End smartphone / tablet look -->
+  </div>
+  <br>
+  <footer class="footer">
+    <div>
+      <ul>
+        <h4>Legal</h4>
+        <li> <button style="border: none" class="collapsible">Privacy policy</button>
+          <div style="font-size: small; background-color: #f2f7f7;" class="content">
+            <p style="font-size: small;">
+            <p>At supcy.com, accessible from www.supcy.com, one of our main priorities is the privacy of our visitors.
+              This Privacy Policy document contains types of information that is collected and recorded by supcy.com and
+              how we use it.</p>
+
+            <p>If you have additional questions or require more information about our Privacy Policy, do not hesitate to
+              <a href="contact.us___0011.html"> contact us.</a>
+            </p>
+
+            <p>This Privacy Policy applies only to our online activities and is valid for visitors to our website with
+              regards to the information that they shared and/or collect in supcy.com. This policy is not applicable to
+              any information collected offline or via channels other than this website.</p>
+
+            <h3><strong>Consent</strong></h3>
+
+            <p>By using our website, you hereby consent to our Privacy Policy and agree to its terms.</p>
+
+            <h3><strong>Information we collect</strong></h3>
+
+            <p>If you <a href="contact.us___0011.html">contact us</a> directly, we may receive additional
+              information about you such as your name, email
+              address, phone number, the contents of the message and/or attachments you may send us, and any other
+              information you may choose to provide.</p>
+            <p>When you submit a concern, we may ask for your contact information, including items such as name,
+              address, email address, and telephone number.</p>
+
+            <h3><strong>How we use your information</strong></h3>
+
+            <p>We use the information we collect in various ways, including to:</p>
+
+            <ul>
+              <li>Provide, operate, and maintain our website</li>
+              <li>Provide improved and personalized assistance</li>
+              <li>Understand and analyze how you use our website</li>
+              <li>Develop new services, features, and functionality</li>
+              <li>Send you emails</li>
+            </ul>
+
+            <h3><strong>Google DoubleClick DART Cookie</strong></h3>
+
+            <p>Google is one of a third-party vendor on our site. It also uses cookies, known as DART cookies, to serve
+              ads to our site visitors based upon their visit to www.supcy.com and other sites on the internet. However,
+              visitors may choose to decline the use of DART cookies by visiting the Google ad and content network
+              Privacy Policy at the following URL – <a
+                href="https://policies.google.com/technologies/ads">https://policies.google.com/technologies/ads</a></p>
+
+
+            <h3><strong>Advertising Partners Privacy Policies</strong></h3>
+
+            <P>You may consult this list to find the Privacy Policy for each of the advertising partners of supcy.com.
+            </p>
+
+            <p>Third-party ad servers or ad networks uses technologies like cookies, JavaScript, or Web Beacons that are
+              used in their respective advertisements and links that appear on supcy.com, which are sent directly to
+              users' browser. They automatically receive your IP address when this occurs. These technologies are used
+              to measure the effectiveness of their advertising campaigns and/or to personalize the advertising content
+              that you see on websites that you visit.</p>
+            <p>Note that supcy.com has no access to or control over these cookies that are used by third-party
+              advertisers.</p>
+
+            <h3><strong>Third Party Privacy Policies</strong></h3>
+
+            <p>supcy.com's Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to
+              consult the respective Privacy Policies of these third-party ad servers for more detailed information. It
+              may include their practices and instructions about how to opt-out of certain options. </p>
+
+            <p>You can choose to disable cookies through your individual browser options. To know more detailed
+              information about cookie management with specific web browsers, it can be found at the browsers'
+              respective websites.</p>
+
+            <h3><strong>GDPR Data Protection Rights</strong></h3>
+
+            <p>We would like to make sure you are fully aware of all of your data protection rights. Every user is
+              entitled to the following:</p>
+            <p>The right to access – You have the right to request copies of your personal data. We may charge you a
+              small fee for this service.</p>
+            <p>The right to rectification – You have the right to request that we correct any information you believe is
+              inaccurate.</p>
+            <p>The right to erasure – You have the right to request that we erase your personal data, under certain
+              conditions.</p>
+            <p>The right to restrict processing – You have the right to request that we restrict the processing of your
+              personal data, under certain conditions.</p>
+            <p>The right to object to processing – You have the right to object to our processing of your personal data,
+              under certain conditions.</p>
+            <p>The right to data portability – You have the right to request that we transfer the data that we have
+              collected to another organization, or directly to you, under certain conditions.</p>
+            <p>If you make a request, we do our best to respond to you. If you would like to exercise any of these
+              rights, please <a href="contact.us___0011.html"> contact us.</a></p>
+
+            <h3><strong>Children's Information</strong></h3>
+
+            <p>Another part of our priority is adding protection for children while using the internet. We encourage
+              parents and guardians to observe, participate in, and/or monitor and guide their online activity.</p>
+
+            <p>supcy.com does not knowingly collect any Personal Identifiable Information from children under the age of
+              13. If you think that your child provided sensitive information on our website, we strongly encourage you
+              to <a href="contact.us___0011.html">contact us</a> immediately and we will do our best
+              efforts to promptly remove such information from our
+              records.</p>
+
+            <h3><strong>Changes to This Privacy Policy</strong></h3>
+
+            <p>We may update our Privacy Policy from time to time. Thus, we advise you to review this page periodically
+              for any changes. We will notify you of any changes by posting the new Privacy Policy on this page. These
+              changes are effective immediately, after they are posted on this page.</p>
+
+            <p>If you have any questions or suggestions about our Privacy Policy, do not hesitate to <a
+                href="contact.us___0011.html">contact us.</a></p>
+            </p>
+          </div>
+
+        <li> <button style="border: none" class="collapsible">Terms of service</button>
+          <div style="font-size: small; background-color: #f2f7f7;" class="content">
+            <p>These terms and conditions outline the rules and regulations for the use of supcy.com's Website, located
+              at www.supcy.com.</p>
+
+            <p>By accessing this website we assume you accept these terms and conditions. Do not continue to use
+              supcy.com if you do not agree to take all of the terms and conditions stated on this page.</p>
+
+            <p>The following terminology applies to these Terms and Conditions, Privacy Statement and Disclaimer Notice
+              and all Agreements: "Client", "You" and "Your" refers to you, the person log on this website and compliant
+              to the Company's terms and conditions. "The Company", "Ourselves", "We", "Our" and "Us", refers to our
+              Company. "Party", "Parties", or "Us", refers to both the Client and ourselves. All terms refer to the
+              offer, acceptance and consideration of payment necessary to undertake the process of our assistance to the
+              Client in the most appropriate manner for the express purpose of meeting the Client's needs in respect of
+              provision of the Company's stated services, in accordance with and subject to, prevailing law of Cameroon.
+              Any use of the above terminology or other words in the singular, plural, capitalization and/or he/she or
+              they, are taken as interchangeable and therefore as referring to same.</p>
+
+            <h3><strong>License</strong></h3>
+
+            <p>Unless otherwise stated, supcy.com and/or its licensors own the intellectual property rights for all
+              material on supcy.com. All intellectual property rights are reserved. You may access this from supcy.com
+              for your own personal use subjected to restrictions set in these terms and conditions.</p>
+
+            <p>You must not:</p>
+            <ul>
+              <li>Modify and republish material from supcy.com</li>
+              <li>Sell, rent or sub-license material from supcy.com</li>
+              <li>Reproduce, duplicate or copy source-code from supcy.com</li>
+              <li>Submit inappropriate or offensive content to supcy.com</li>
+            </ul>
+
+            <p>This Agreement shall begin on the date hereof.
+
+            <p>Parts of this website offer an opportunity for users to submit opinions and information in certain areas
+              of the website. supcy.com does not filter, edit, publish or review input prior to their presence on the
+              website.
+
+            <h3><strong>Hyperlinking to our Content</strong></h3>
+
+            <p>The following organizations may link to our Website without prior written approval:</p>
+
+            <ul>
+              <li>Government agencies;</li>
+              <li>Other repair stores;</li>
+              <li>Search engines;</li>
+              <li>News organizations;</li>
+              <li>Online directory distributors may link to our Website in the same manner as they hyperlink to the
+                Websites of other businesses; and</li>
+              <li>System wide Accredited Businesses except soliciting non-profit organizations, charity shopping malls,
+                and charity fundraising groups which may not hyperlink to our Web site.</li>
+            </ul>
+
+            <p>These organizations may link to our home page, to publications or to other Website information so long as
+              the link: (a) is not in any way deceptive; (b) does not falsely imply sponsorship, endorsement or approval
+              of the linking party and its products and/or services; and (c) fits within the context of the linking
+              party's site.</p>
+            <p>No use of supcy.com's logo or other artwork will be allowed for linking absent a trademark license
+              agreement.</p>
+
+            <h3><strong>iFrames</strong></h3>
+
+            <p>Without prior approval and written permission, you may not create frames around our Webpages that alter
+              in any way the visual presentation or appearance of our Website.</p>
+
+            <h3><strong>Content Liability</strong></h3>
+
+            <p>We do not ensure that the information on this website is perfect, we do not warrant its completeness or
+              accuracy; nor do we promise to ensure that the website remains available at all times or that the material
+              on the
+              website is kept up to date.</p>
+
+            <p style="font-size: x-small;">We are happy when you respect this>
+          </div>
+      </ul>
+      <ul>
+        <h4>Contact us!</h4>
+        <li> <button style="border: none" class="collapsible">Contact options</button>
+          <div style="line-height: 0%;" class="content">
+            <a href="https://instagram.com/supcy_official?igshid=ZDdkNTZiNTM="><img src="Instagram_logo 1.png"
+                height="32px" width="32px" alt="instagram"></a>
+
+                             
+
+            <a href="https://www.facebook.com/profile.php?id=100092371091113"><img src="Facebook logo.jpg" height="32px"
+                width="32px" alt="facebook"></a>
+
+
+
+            <a href="http://t.me/supcy89"><img src="telegram logo.png" height="32px" width="32px" alt="Telegram"></a>
+           
+
+
+            <a href="https://api.whatsapp.com/send?phone=654714415"><img src="whatsapp logo.png" width="32px"
+                height="32px" alt="Whatsapp"></a>
+          </div>
+
+        <li> <button style="border: none" class="collapsible">Physical location</button>
+          <div style="background-color: #f2f7f7;" class="content">
+            <p style="font-size: small;">Physical spot at Biaka street-Buea.
+            <p style="font-size: x-small;">In Bamenda physical spot is currently void
+          </div>
+          <script src="collapse0content0specified.js"></script>
+      </ul>
+    </div>
+    <img class="logoImg" src="logototal-blck2.png" alt="failed to load image" width="250"
+    height="100">
+  </footer>
+</body>
+
+</html>

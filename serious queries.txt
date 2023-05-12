@@ -1,0 +1,30 @@
+Note: This guide is limited to serious queries only.
+
+Social interactive questions such as ('What is your hobby', 'What's up') amongst many, are not included
+
+Simple questions such as ('Do you have parents', 'Who wrote your codes', 'Where do you work') amongst many, are not included
+________________________________________________________________________________________________________________________________________________
+
+Battery drain
+Slow performance
+Wifi not working
+Data not working
+Overheating
+Storage space running out
+Apps not responding
+Phone get freeze
+Forced sleep
+Bloatware
+Playstore not working
+Google playstore missing
+Applications not downloading
+Wrong auto correction typing
+SD card not reading
+High RAM consumption
+Malware installed
+Download missing
+Auto call ends
+Google play service error
+USB debugging
+
+  >>>>>>>Please, pay attention to the way characters are displayed here, neglecting letter cases may confuse our Virtual Assistants's understanding<<<<<<<
