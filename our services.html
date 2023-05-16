@@ -123,9 +123,66 @@
         #select:hover {
             background-color: #4e5656;
         }
+        .topnav {
+            overflow: hidden;
+            background-color: #f2f7f7;
+            position: relative;
+            border-radius: 25px;
+        }
+
+        .topnav #myLinks {
+            display: none;
+            position: relative;
+        }
+
+        .topnav a {
+            float: left;
+            display: block;
+            color: rgb(15, 11, 11);
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            position: relative;
+            text-size-adjust: none;
+        }
+
+        .topnav a.icon {
+            float: left;
+        }
+
+        .topnav a:hover {
+            background-color: rgb(208, 220, 232);
+            color: black;
+        }
+
+        .active {
+            background-color: rgb(188, 209, 230);
+            color: white;
+        }
     </style>
 </head>
-
+     <!-- Top Navigation Menu -->
+    <div class="topnav">
+        <a href="sup2ndtry.html" class="active"><i class="fa fa-home fa-lg"></i></a>
+        <div id="myLinks">
+            <a href="our services.html">Our Services</a>
+            <a href="contact.us___0011.html"><i class="fa fa-contact"></i> Contact Us</a>
+            <a href="virtual assistant.html">Virtual Assistant</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars fa-lg"></i>
+        </a>
+    </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>                                                                                                                       
 <body style="padding-right: 10px; padding-left: 10px;">
     <div class="slideshow-container">
 
@@ -141,7 +198,7 @@
         </div>
 
         <div class="mySlides fade">
-            <div class="numbertext">3 /</div>
+            <div class="numbertext">3 / 7</div>
             <img src="i12.png" style="width:100%" alt="falied to load image">
             <div id="capstyle" class="text">Wipe eMMC-iOS</div>
         </div>
