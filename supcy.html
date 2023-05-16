@@ -7,6 +7,7 @@
   </title>
   <script src="https://kit.fontawesome.com/b7edaf827a.js" crossorigin="anonymous"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <style>
     .footer {
       position: relative;
@@ -32,18 +33,22 @@
       overflow: auto;
       background-color: #333939;
     }
-    .logoImg{
+
+    .logoImg {
       display: block;
       margin-left: auto;
       margin-right: auto;
     }
-    .centered{
-    max-width: 100%;
-    max-height: 100%;
-    margin-left: auto;
-    margin-right: auto;  
-    display: block; /* remove extra space below image */
+
+    .centered {
+      max-width: 100%;
+      max-height: 100%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      /* remove extra space below image */
     }
+
     #btn {
       background-color: #f2f7f7;
       border: none;
@@ -148,7 +153,7 @@
 
 <body>
 
-  <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="favi6.png" alt=""></button>
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><img id="mibtn" src="favi6.png" alt="Go to top"></button>
 
   <script>
     // Get the button
@@ -161,7 +166,7 @@
       if (document.body.scrollTop > 700 || document.documentElement.scrollTop > 700) {
         mybutton.style.display = "block";
       } else {
-        mybutton.style.display = "none";
+        mybutton.style.display = "padding-right: 5px";
       }
     }
 
@@ -177,7 +182,7 @@
       font-family: Arial, Helvetica, sans-serif;
     }
 
-    
+
 
     .topnav {
       overflow: hidden;
@@ -215,8 +220,6 @@
       background-color: rgb(188, 209, 230);
       color: white;
     }
-
-   
   </style>
 
 
@@ -225,10 +228,10 @@
 
     <!-- Top Navigation Menu -->
     <div class="topnav">
-      <a href="#home" class="active"><i class="fa fa-home fa-lg"></a>
+      <a href="#home" class="active"><i class="fa fa-home fa-lg"></i></a>
       <div id="myLinks">
         <a href="our services.html">Our Services</a>
-        <a href="contact.us___0011.html">Contact Us</a>
+        <a href="contact.us___0011.html"><i class="fa fa-contact"></i> Contact Us</a>
         <a href="virtual assistant.html">Virtual Assistant</a>
       </div>
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -236,13 +239,14 @@
       </a>
     </div>
 
-    <div style="padding-left: 5px">
+    <div style="padding: left 5px;">
       <hr width="100%">
       <h2 class="head"> <a href="sup2ndtry.html">S U P C Y</a></h2>
       <hr width="100%">
       <p><strong>SUPCY</strong> is a software repair center structured in Buea that offers a vast
         majority of services within the smartphone, feature phone and web
-        development domain. This structure is primarily build for or to provide information about our services, help clients with simple fixes, and provide for them a
+        development domain. This structure is primarily build for or to provide information about our services, help
+        clients with simple fixes, and provide for them a
         channel to express their concerns. <br><br>
         Contents on this page:
       <ul class="contents">
@@ -277,9 +281,10 @@
         </div>
         <hr width="100%">
         <h1>
-          <p><strong>Why We Need Support <br> For Using Our Gadgets</strong></p> <br>
+          <p><strong>Why We Need Support For Using Our Gadgets</strong></p> <br>
         </h1>
-        <img style="display: block; margin-left: auto; margin-right: auto; max-width: 100%;" src="gadgets.jpg" height="400px" alt="there was supposed to be an image here">
+        <img style="display: block; margin-left: auto; margin-right: auto; max-width: 100%;" src="gadgets.jpg"
+          alt="there was supposed to be an image here">
         <p>
           Our phones are, without a doubt, some of the most important gadgets in our lives. Even with the ever-rising
           need to use our phones almost everywhere, there is one thing that never seems to be addressed correctly –
@@ -306,12 +311,12 @@
 
   <div style="padding-left: 0px;">
     <!-- Element whose border will be styled -->
-    <div style="padding-left: 10px; padding-right: 1px;" id="exp1border">
+    <div style="padding-left: 10px;padding-right: 1px;" id="exp1border">
       <h2 id="fst" style="padding-left: 26px;"><br> E X P L O R E</h2>
       <hr width="100%"> <br>
 
       <h2> When is it appropriate to reset my phone to factory settings</h2> <br>
-      <img class="centered" src="facrestrue.jpg" height="400px" width="400px" alt="failed to load image">
+      <img class="centered" src="facrestrue.jpg" alt="failed to load image">
       <p>There are plenty of reasons why someone would want to do a factory reset on their phone. If your phone is
 
         dealing with software issues, a factory reset could truly save the day. If it’s moving slowly, glitching often,
@@ -326,7 +331,7 @@
       </p>
       <hr width="100%"> <br>
       <h2>Why does my phone say "No Sim"? Try these tricks</h2> <br>
-      <img class="centered" src="nosimcard.jpg" height="400px" width="400px" alt="failed to load image">
+      <img class="centered" src="nosimcard.jpg" alt="failed to load image">
       <p> <strong>Trick 1:</strong> Although it seems like a no-brainer, the first thing to do when an error message
         pops up is to remove
         the SIM card on your phone. Most often, the SIM card message is triggered when a SIM card is loose, not put in
@@ -352,8 +357,7 @@
       <hr width="100%"> <br>
       <div>
         <h2>Why does my phone overheat while charging</h2> <br>
-        <img class="centered" src="chargeheat.jpg" width="400px" height="400px"
-          alt="failed to load image">
+        <img class="centered" src="chargeheat.jpg" alt="failed to load image">
         <p>There are many reasons why your device could overheat while charging. In this guide we'll talk about the most
           common.
 
@@ -377,8 +381,7 @@
       <hr width="100%">
 
       <h2> <strong> How to use phone when screen is broken or working partially </strong></h2> <br> <br>
-      <img  class="centered" src="otgmouse.jpg" width="400px" height="400px"
-        alt="failed to load image">
+      <img class="centered" src="otgmouse.jpg" alt="failed to load image">
       <p>
 
         To do this you'll need a mouse and an OTG cable. <br> <br> Step 1: Connect the Micro USB side or the OTG adapter
@@ -393,8 +396,7 @@
       <hr width="100%"> <br>
       <h2> <strong> How to flash phone with SP flash tool</h2> </strong>
       <br> <br>
-      <img class="centered" src="spflashtul.jpg" width="400px" height="400px"
-        alt="failed to load image">
+      <img class="centered" src="spflashtul.jpg" alt="failed to load image">
       <p>
       <ol>
         <li>Download the target device's USB drivers</li>
@@ -694,18 +696,18 @@
         <h4>Contact us!</h4>
         <li> <button style="border: none" class="collapsible">Contact options</button>
           <div style="line-height: 0%;" class="content">
-            <a href="https://instagram.com/supcy_official?igshid=ZDdkNTZiNTM="><img src="instagram_logo 1.png"
+            <a href="https://instagram.com/supcy_official?igshid=ZDdkNTZiNTM="><img src="Instagram_logo 1.png"
                 height="52px" width="52px" alt="instagram"></a>
 
-                             
 
-            <a href="https://www.facebook.com/profile.php?id=100092371091113"><img src="facebook logo.jpg" height="52px"
+
+            <a href="https://www.facebook.com/profile.php?id=100092371091113"><img src="Facebook logo.jpg" height="52px"
                 width="52px" alt="facebook"></a>
 
 
 
             <a href="http://t.me/supcy89"><img src="telegram logo.png" height="52px" width="52px" alt="Telegram"></a>
-           
+
 
 
             <a href="https://api.whatsapp.com/send?phone=654714415"><img src="whatsapp logo.png" width="52px"
@@ -720,8 +722,7 @@
           <script src="collapse0content0specified.js"></script>
       </ul>
     </div>
-    <img class="logoImg" src="logototal-blck2.png" alt="failed to load image" width="250"
-    height="100">
+    <img class="logoImg" src="logototal-blck2.png" alt="failed to load image" width="250" height="100">
   </footer>
 </body>
 
